@@ -1,0 +1,8 @@
+//
+// Created by Ivan on 2019-04-02.
+//
+
+#ifndef ABSTRACTFACTORY_ROOM_HPP
+#define ABSTRACTFACTORY_ROOM_HPP
+
+#endif //ABSTRACTFACTORY_ROOM_HPP

@@ -1,0 +1,8 @@
+//
+// Created by Ivan on 2019-04-02.
+//
+
+#ifndef ABSTRACTFACTORY_MAZE_HPP
+#define ABSTRACTFACTORY_MAZE_HPP
+
+#endif //ABSTRACTFACTORY_MAZE_HPP

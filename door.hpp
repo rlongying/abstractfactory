@@ -1,0 +1,8 @@
+//
+// Created by Ivan on 2019-04-02.
+//
+
+#ifndef ABSTRACTFACTORY_DOOR_HPP
+#define ABSTRACTFACTORY_DOOR_HPP
+
+#endif //ABSTRACTFACTORY_DOOR_HPP

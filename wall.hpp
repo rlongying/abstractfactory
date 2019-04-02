@@ -1,0 +1,8 @@
+//
+// Created by Ivan on 2019-04-02.
+//
+
+#ifndef ABSTRACTFACTORY_WALL_HPP
+#define ABSTRACTFACTORY_WALL_HPP
+
+#endif //ABSTRACTFACTORY_WALL_HPP
