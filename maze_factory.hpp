@@ -5,10 +5,7 @@
 #ifndef ABSTRACTFACTORY_MAZE_FACTORY_HPP
 #define ABSTRACTFACTORY_MAZE_FACTORY_HPP
 
-class maze;
-class room;
-class wall;
-class door;
+#include "maze.hpp"
 
 class maze_factory {
 
@@ -24,12 +21,41 @@ public:
 
 class futuristic_maze_factory : public maze_factory{
 
+public:
+    maze *make_maze() override {
+        return new futuristic_maze{};
+    }
+
+    room *make_room() override {
+        return new futuristic_room{};
+    }
+
+    wall *make_wall() override {
+        return new futuristic_wall();
+    }
+
+    door *make_door(room &r1, room &r2) override {
+        return new futuristic_door(&r1, &r2);
+    }
 };
 
 class enchanted_maze_factory : public maze_factory {
 
 public:
-    room* make_room() override{
+    maze *make_maze() override {
+        return new enchanted_maze();
+    }
+
+    room *make_room() override {
+        return new enchanted_room();
+    }
+
+    wall *make_wall() override {
+        return new enchanted_wall();
+    }
+
+    door *make_door(room &r1, room &r2) override {
+        return new enchanted_door(&r1, &r2);
     }
 };
 

@@ -17,7 +17,7 @@ public:
     virtual void print() = 0;
 };
 
-int room::room_id = 0;
+
 
 
 class futuristic_room : public room {
